@@ -1,37 +1,177 @@
-<html>
+<html lang="en">
+
 <head>
 <title>Programming Developers</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 1.25rem;
+  font-family: sans-serif;
+  line-height: 150%;
+  text-shadow: 0 2px 2px #b6701e;
+}
+
+section {
+  color: #fff;
+  text-align: center;
+}
+
+div {
+  height: 100%;
+}
+
+article {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 1.75rem;
+  margin: 0 0 0.75rem 0;
+}
+
+/* Pattern styles */
+.container {
+  display: table;
+  width: 100%;
+}
+
+.left-half {
+  background-color: #ff9e2c;
+  position: absolute;
+  left: 0px;
+  width: 50%;
+}
+
+.right-half {
+  background-color: #b6701e;
+  position: absolute;
+  right: 0px;
+  width: 50%;
+}
+
+
+
+
+
+
+
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+/* Page Content */
+.content {padding:20px;}
+
+
+
+
+
+html,body {
+    font-size: 16px; /*the base.*/ 
+}
+
+nav {
+    font-size: 0.75rem; /* should be 12px */
+}
+
+.textBlock {
+    font-size: 0.95rem; /* should be 15.2px */
+    padding: 0 0.15rem; /* should be 2.4px */
+}
+
+</style>
 </head>
+
+
 <body>
 
-<h1><center>Programming Developers!</center></h1>
-<p>Λίγα λόγια για εμάς.
-Ειμαστε ο Αναστασης Χρυσουλάκης με ΑΜ 4009 και η Ιωάννα Βασιλειάδου
-με ΑΜ 3916 και είμαστε προγραμματιστές.
-Εργαζόμαστε στην δημιουργεία ιστοσελιδών και θέλουμε να δημιουργήσουμε
-ενα δικό μας video game.
-Παρακάτω θα δείτε λίγες περισσότερες πληροφορίες για τον καθένα μας ξεχωριστά.
-</p>
-<br>
-<br>
-<br>
-<br>
-<br>
-<p>
-Ονομάζομαι Βασιλειάδου Ιωάννα και κατάγομαι από την Θεσσαλονίκη.<br/>
-Εχω εργαστεί στο τμήμα marketing της Vodafone.<br/>
-Γνωρίζω 3 ξένες γλώσσες:
-<ul>
- <li>Αγγλικά
- <li>Γαλλικά
- <li>Ρώσικα
-</ul> 
-Τα χόμπι μου είναι το animation και η ζωγραφική </p>
-<p> Ακολουθεί μια φωτογραφία δικιά μου και μια του τόπου καταγωγης μου και συνδεσμο. </p>
-<img src="fwtografia2018.jpg" alt ="Φωτογραφία" style="width:200px;height:300px;">
-<a href= "https://el.wikipedia.org/wiki/%CE%98%CE%B5%CF%83%CF%83%CE%B1%CE%BB%CE%BF%CE%BD%CE%AF%CE%BA%CE%B7">
-<img src="download.jpg" alt ="Θεσσαλονίκη" style="width:200px;height:300px;" >
-</a>
+
+<div class="header">
+	
+		<h1><center>Programming Developers!</center></h1>
+		<p><center>Λίγα λόγια για εμάς.
+		Ειμαστε ο Αναστασης Χρυσουλάκης με ΑΜ 4009 και η Ιωάννα Βασιλειάδου
+		με ΑΜ 3916 και είμαστε προγραμματιστές.
+		Εργαζόμαστε στην δημιουργεία ιστοσελιδών και θέλουμε να δημιουργήσουμε
+		ενα δικό μας video game.
+		Παρακάτω θα δείτε λίγες περισσότερες πληροφορίες για τον καθένα μας ξεχωριστά.</center></p>
+	
+</div>
+
+
+<section class="container">
+  <div class="left-half">
+		<article>
+			<p>
+			Ονομάζομαι Βασιλειάδου Ιωάννα και κατάγομαι από την Θεσσαλονίκη.<br/>
+			Εχω εργαστεί στο τμήμα marketing της Vodafone.<br/>
+			Γνωρίζω 3 ξένες γλώσσες:
+			<ul>
+			 <li>Αγγλικά
+			 <li>Γαλλικά
+			 <li>Ρώσικα
+			</ul> 
+			Γνωσείς στον προγραμματισμό:
+			<ul>
+			 <li>Java
+			 <li>C++
+			 <li>Python
+			</ul> 
+			Τα χόμπι μου είναι το animation και η ζωγραφική </p>
+			<p> Ακολουθεί μια φωτογραφία δικιά μου και μια του τόπου καταγωγης μου και συνδεσμο. </p>
+			<img src="fwtografia2018.jpg" alt ="Φωτογραφία" style="width:200px;height:300px;">
+			<a href= "https://el.wikipedia.org/wiki/%CE%98%CE%B5%CF%83%CF%83%CE%B1%CE%BB%CE%BF%CE%BD%CE%AF%CE%BA%CE%B7">
+			<img src="download.jpg" alt ="Θεσσαλονίκη" style="width:200px;height:300px;" >
+			</a>
+		</article>
+	</div>
+	<div class="right-half">
+		<article>
+			<p>Ονομάζομαι Αναστάσης Χρυσουλάκης,κατάγομαι απο την θεσσαλονίκη Εχω εγραστεί στην vodafone ως εξωτερικός συνεργάτης.
+			Γνωρίζω 1 ξένη γλώσσα: <p><br>
+			<ul>
+			<li>Αγγλικά
+			<li>Ιαπωνικά
+			</ul>
+			Γνωσείς στον προγραμματισμό:
+			<ul>
+			 <li>Java
+			 <li>C++
+			 <li>Python
+			<p>Τα χόμπι μου είναι τα video games και ο προγραμματισμός </p>
+			<p> Ακολουθεί μια φωτογραφία δικιά μου και μια του τόπου καταγωγης μου και συνδεσμο. </p>
+			<img src="soulis.jpg" alt ="Φωτογραφία" style="width:200px;height:300px;">
+			<a href= "https://el.wikipedia.org/wiki/%CE%98%CE%B5%CF%83%CF%83%CE%B1%CE%BB%CE%BF%CE%BD%CE%AF%CE%BA%CE%B7">
+			<img src="download.jpg" alt ="Θεσσαλονίκη" style="width:200px;height:300px;" >
+			</a>
+			</article>
+	</div>
+</section>
 
 
 
